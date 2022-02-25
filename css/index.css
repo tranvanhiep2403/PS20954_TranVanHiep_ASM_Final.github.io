@@ -1,0 +1,269 @@
+
+.boxcenter{
+    width: 100%;
+    margin: 0px auto;
+}
+.lgc{
+    width: calc(89.93% - 10%);
+    height: 500px;
+}
+.logo{
+    float: left;
+    width: 20%;
+    height: 500px;
+    margin-right: 1px;
+}
+
+.menu{
+    width: 100%;
+    height:55px;
+    background-color: orange;
+    font-family: serif;
+    font-weight: bold;
+    border: 2px solid orangered;
+}
+ul{
+    list-style: none;
+    font-variant: small-caps;
+    font-size: 35px;
+    margin: auto;
+}
+ul>li{
+    float: left;
+}
+ul>li>a{
+    margin: 0px 20px;
+    text-decoration: none;
+    padding:30px;
+    color: black;
+}
+ul>li>a:hover{
+    color: red;
+}
+ul>li>ul>li>a:hover{
+    color: yellow;
+}
+ul>li>ul{
+    padding: 0px;
+    display: none;
+    background-color: pink;
+    position: absolute;
+}
+ul>li:hover>ul{
+    z-index: 300000;/*Tăng hiển thị lên*/
+    display: block;
+}
+ul>li>ul>li{
+    float: none;
+} 
+ul>li>ul>li>a{
+    color: blue;
+}
+.mb{
+    margin-bottom: -10px;
+}
+.boxleft{
+    width: calc(80% - 10%);
+    min-height: 1100px;
+    padding: 0px;
+    margin: 0px;
+    border: 2px solid black;
+    float: left;
+    margin-right: 5px;
+    position: relative;
+    margin-left: 20px;
+    background-color: wheat;
+}
+.boxright{
+    padding: 0px;
+    margin: 0px;
+    width: 27%;
+    min-height: 1100px;
+    float: left;
+    border: 2px solid black;
+    margin-bottom: 3px;
+    background-color: wheat;
+}
+.boxright>img{
+    width: 100%;
+    height: 1096px;
+} 
+.gia{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.ten{
+    font-size: 22.5px;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+}
+.box1{
+    background-color: paleturquoise;
+    color: red;
+    width: 300px;
+    height: 300px;
+    border: 2px solid gray;
+    border-radius: 20px ;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.box1>img{
+    width: 300px;
+    height: 246px;
+}
+.box2{
+    background-color: paleturquoise;
+    color: red;
+    width: 300px;
+    height: 300px;
+    border: 2px solid gray;
+    border-radius: 20px ;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+}
+.box2>img{
+    width: 300px;
+    height: 246px;
+}
+.box3{
+    background-color: paleturquoise;
+    color: red;
+    width: 300px;
+    height: 300px;
+    border: 2px solid gray;
+    border-radius: 20px ;
+    position: absolute;
+    top: 760px;
+    left: 50px;
+}
+.box3>img{
+    width: 300px;
+    height: 246px;
+}
+.box4{
+    background-color: paleturquoise;
+    color: red;
+    width: 300px;
+    height: 300px;
+    border: 2px solid gray;
+    border-radius: 20px ;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.box4>img{
+    width: 300px;
+    height: 246px;
+}
+.box5{
+    background-color: paleturquoise;
+    color: red;
+    width: 300px;
+    height: 300px;
+    border: 2px solid gray;
+    border-radius: 20px ;
+    position: absolute;
+    top: 400px;
+    right: 50px;
+}
+.box5>img{
+    width: 300px;
+    height: 246px;
+}
+.box6{
+    background-color: paleturquoise;
+    color: red;
+    width: 300px;
+    height: 300px;
+    border: 2px solid gray;
+    border-radius: 20px ;
+    position: absolute;
+    top: 760px;
+    right: 50px;
+}
+.box6>img{
+    width: 300px;
+    height: 246px;
+}
+.box7{
+    background-color: paleturquoise;
+    color: red;
+    width: 300px;
+    height: 300px;
+    border: 2px solid gray;
+    border-radius: 20px ;
+    position: absolute;
+    top:50px;
+    left: 375px;
+}
+.box7>img{
+    width: 300px;
+    height: 246px;
+}
+.box8{
+    background-color: paleturquoise;
+    color: red;
+    width: 300px;
+    height: 300px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    position: absolute;
+    top: 400px;
+    left: 375px;
+}
+.box8>img{
+    width: 300px;
+    height: 246px;
+}
+.box9{
+    background-color: paleturquoise;
+    color: red;
+    width: 300px;
+    height: 300px;
+    border: 2px solid gray;
+    border-radius: 20px ;
+    position: absolute;
+    top:760px;
+    left: 375px;
+}
+.box9>img{
+    width: 300px;
+    height: 246px;
+}
+footer>{
+    width: 100%;
+    clear: both;
+}
+footer>img{
+    width: 1500px;
+    height: 400px;
+    width: 100%;
+}
+.tk>input{
+    float: left;
+    width: 98.5%;
+    position: relative;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 16px;
+    margin-bottom: 5px;
+    border: 3px solid black;
+}
+
+.top-right{
+    position: absolute;
+    top: 9px;
+    right:9px;
+    box-shadow: 0px 0px 5px #FFF;
+    padding-left: 0px;
+    background-color: yellowgreen;
+    border-radius: 5px ;
+}
+.top-menu{
+    font-size: 30px;
+    margin: 0px auto;
+}
